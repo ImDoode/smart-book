@@ -1,0 +1,23 @@
+$media-xs: 360px;
+$media-s: 640px;
+$media-m: 990px;
+$media-l: 1280px;
+$media-xl: 1920px;
+
+@mixin media-down($max) {
+  @media screen and (max-width: $max - 1px) {
+    @content;
+  }
+}
+
+@mixin media-up($min) {
+  @media screen and (min-width: $min) {
+    @content;
+  }
+}
+
+@mixin media-between($min, $max) {
+  @media screen and (min-width: $min) and (max-width: $max - 1px) {
+    @content;
+  }
+}
