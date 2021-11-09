@@ -7,6 +7,16 @@
     $navContainer.classList.toggle('nav__container--expanded');
   });
 
+  document.querySelectorAll('.js-smooth-scroll').forEach(item => {
+    item.addEventListener('click', function(e){
+      e.preventDefault();
+      document.querySelector(this.attributes.href.value).scrollIntoView({
+        behavior: 'smooth'
+      });
+    })
+    
+  })
+
   var splide = new Splide( '.splide', {
     type   : 'loop',
     drag   : true,
