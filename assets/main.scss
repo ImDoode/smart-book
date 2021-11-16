@@ -291,7 +291,10 @@
   }
   @include media-down($media-m) {
     margin-top: 0;
-    background-position-y: top;
+    background-position-y: center;
+    .promo__download-link img {
+      max-width: 150px;
+    }
   }
 }
 
@@ -363,14 +366,11 @@
   color: #FFFFFF;
   background: linear-gradient(333.28deg, #0082FD -73.53%, #00E0FF 112.17%), #C4C4C4;
   text-align: center;
-  display: none;
   padding: 40px 25px;
-  @include media-down($media-s) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
   &__title {
     font-family: Gilroy, sans-serif;
     font-weight: 800;
