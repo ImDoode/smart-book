@@ -21,11 +21,14 @@
     type   : 'loop',
     drag   : true,
     focus  : 'center',
-    pagination: false,
     arrows: false,
     autoWidth: false,
     fixedWidth: 290
   } );
   
   splide.mount();
+
+  splide.on( 'click', function (e) {
+    splide.go(e.index);
+  } );
 })();
