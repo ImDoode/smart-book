@@ -42,7 +42,7 @@
   &__icon {
     width: 55px;
     height: 55px;
-    background: url('./images/smart-book-icon.svg') 50% 50% no-repeat;
+    background: url('../images/smart-book-icon.svg') 50% 50% no-repeat;
   }
   &__title {
     font-family: Gilroy, sans-serif;
@@ -110,7 +110,7 @@
       z-index: 10;
       width: 100%;
       .nav__icon {
-        background: url('./images/smart-book-icon__dark.svg') 50% 50% no-repeat;
+        background: url('../images/smart-book-icon__dark.svg') 50% 50% no-repeat;
       }
       .nav__title {
         color: #fff;
@@ -210,7 +210,7 @@
 .promo {
   padding-right: 53%;
   color: #fff;
-  background: url('./images/promo-phones.png') right top no-repeat;
+  background: url('../images/promo-phones.png') right top no-repeat;
   background-size: 53%;
   margin-top: 60px;
   padding-top: 90px;
@@ -233,7 +233,7 @@
   }
   &__container {
     height: 900px;
-    background: url('./images/promo-bg.svg') 50% top no-repeat;
+    background: url('../images/promo-bg.svg') 50% top no-repeat;
     padding-top: 1px;
     margin-top: -1px;
   }
@@ -260,7 +260,7 @@
     text-align: center;
     text-decoration: none;
     padding-left: 33px;
-    background: url('./images/play-icon.svg') 32px center no-repeat #fff;
+    background: url('../images/play-icon.svg') 32px center no-repeat #fff;
     margin-top: 30px;
   }
   @include media-down($media-s) {
@@ -303,7 +303,7 @@
   &__container {
     display: none;
     margin: 32px 20px;
-    background: url('./images/play-video-mobile.jpg') 50% 50% no-repeat;
+    background: url('../images/play-video-mobile.jpg') 50% 50% no-repeat;
     background-size: cover;
     height: 50vw;
     border-radius: 5px;
@@ -329,7 +329,7 @@
     text-align: center;
     text-decoration: none;
     padding-left: 33px;
-    background: url('./images/play-icon__white.svg') 32px center no-repeat #FFC32A;
+    background: url('../images/play-icon__white.svg') 32px center no-repeat #FFC32A;
   }
 }
 
